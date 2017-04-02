@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Laila:400');
+
+label,p,input,form,.note{
+    font-family: 'Laila', serif;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+form{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+p{
+    text-align: center;
+}
+
+.note{
+  color : rgba(0,0,0,0.6);
+}
+
+#clear{
+    margin-left: 1rem;
+    width: 3.5rem;
+}
+
+h3
+{
+    margin-top: 2rem;
+    text-align: center; 
+    color:#2E2E2E;
+    font-family: 'Laila', serif;
+}
+
+input
+{
+  margin-bottom: 2rem;
+  margin-top: .5rem;
+  border-radius: 10px;
+  height: 1rem;
+  padding-left: 4px;
+}
+
+.container{
+    border: 1px solid #848484;
+    border-radius: 1rem;
+    border-width: 2px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(0,0,0,.2)
+}
+
+button{
+    border-radius: 7px;
+    background-color: #A9A9F5;
+    
+}
+
+span{
+    
+    font-size: .7rem;
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <h3>Currecy Convertor</h3>
+        
+    <form>
+        <label>Enter currency code you want to convert from :</label><br>
+        <input id="from" style="text-transform: uppercase" type="text" name="from"/><br>
+    
+        <label>Enter the value:</label><br>
+        <input id="fromvalue" type="text" name="from"/><br>
+    
+        <label>Enter currency code you want to convert to :</label><br>
+        <input id="to" style="text-transform: uppercase" type="text" name="to" require/><br>
+        
+        <button id="submit" type="submit">Submit</button>
+        <button id="clear" type="clear" onclick="Clear()">Clear</button>
+    </form>
+    <p id="showit"></p>
+    <p class="note">
+      Please enter the correct currency code to view the proper results.<br><br><span>Made By Akshil Shah</span>
+    </p>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
